@@ -410,8 +410,9 @@ a {
     position: relative;
 }
 
-.courses .courses-item:hover .image {
-    opacity: 1;
+.courses .courses-item:hover {
+    transform: translateY(-10px);
+    transition: 0.5s;
 }
 
 .courses-item .image {
@@ -421,7 +422,10 @@ a {
     opacity: 0.6;
     object-fit: cover;
     background: #d0efed;
-    transition: 0.25s;
+}
+
+.courses-item:hover .image {
+    opacity: 1;
 }
 
 .courses-item .courses-info {
