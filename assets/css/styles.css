@@ -395,6 +395,10 @@ a {
     text-decoration-line: underline;
 }
 
+.courses .head-info .link:hover {
+    opacity: 0.6;
+}
+
 .courses .courses-group {
     margin-top: 79px;
     display: flex;
