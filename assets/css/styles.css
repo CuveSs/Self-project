@@ -344,12 +344,16 @@ a {
     color: #767e7e;
     font-size: 1.8rem;
     font-weight: 400;
+    line-height: 1.5;
 }
 
 .features .features-group {
     margin-top: 80px;
     display: flex;
-    justify-content: space-between;
+}
+
+.features .feature {
+    width: calc(100% / 3);
 }
 
 .features-group a {
@@ -361,7 +365,7 @@ a {
 }
 
 .features-group .desc {
-    min-width: 224px;
+    max-width: 224px;
     margin-top: 16px;
     color: #9da6a5;
     font-size: 1.6rem;
