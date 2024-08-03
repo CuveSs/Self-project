@@ -99,7 +99,7 @@ a {
 .header.fixed {
     position: sticky;
     top: -18px;
-    z-index: 1;
+    z-index: 100;
 }
 
 .header .body {
@@ -501,4 +501,169 @@ a {
     border-radius: 50%;
     background: var(--primary-color);
     margin-right: 10px;
+}
+/* ============================Courses-End=============================== */
+
+/* ============================Countdown-Start=============================== */
+.countdown {
+    margin-top: 135px;
+    padding: 130px 0;
+}
+
+.countdown .body {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+}
+
+.countdown .stats-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.countdown .stats-info .title {
+    color: #0d1111;
+    font-size: 6.2rem;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.countdown .stats-info .desc {
+    margin-top: 11px;
+    text-align: center;
+    color: #767e7e;
+    text-align: center;
+    font-size: 1.8rem;
+}
+/* ============================Countdown-End=============================== */
+
+/* ============================Feedback-Start=============================== */
+.feedback {
+    margin-top: 134px;
+}
+
+.feedback .body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.feedback .text-block {
+    width: 36%;
+}
+
+.feedback blockquote {
+    margin-top: 27px;
+    color: #5d6564;
+    font-size: 3.2rem;
+    line-height: 1.5;
+}
+
+.feedback .text-block .name::before {
+    display: inline-block;
+    content: "";
+    margin-right: 5px;
+    width: 8px;
+    height: 2px;
+    background: #070707;
+}
+
+.feedback .text-block .name {
+    display: flex;
+    align-items: center;
+    margin-top: 33px;
+    color: #767e7e;
+    font-size: 1.6rem;
+}
+
+.feedback .name span {
+    color: #070707;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+.feedback .cta-control {
+    margin-top: 52px;
+    display: flex;
+    gap: 30px;
+}
+
+.feedback .control-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #2ac9bf;
+    border: 1px solid #2ac9bf;
+    background: transparent;
+}
+
+.feedback .control-btn:hover {
+    background: #2ac9bf;
+    color: #fff;
+    cursor: pointer;
+}
+
+.feedback .image-block {
+    position: relative;
+    margin-left: auto;
+    width: 679px;
+    height: 481px;
+}
+
+.feedback .image-block .avatar-1 {
+    position: absolute;
+    top: 107px;
+    right: 171px;
+    width: 235px;
+    height: 235px;
+    border-radius: 50%;
+}
+
+.feedback .image-block .avatar-2 {
+    position: absolute;
+    top: 0;
+    left: 144px;
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+}
+
+.feedback .image-block .avatar-3 {
+    position: absolute;
+    top: 19px;
+    right: 0;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+}
+
+.feedback .image-block .avatar-4 {
+    position: absolute;
+    right: 32px;
+    bottom: 29px;
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+}
+
+.feedback .image-block .avatar-5 {
+    position: absolute;
+    bottom: 0;
+    left: 212px;
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
+}
+
+.feedback .image-block .avatar-6 {
+    position: absolute;
+    left: 0;
+    bottom: 145px;
+    width: 78px;
+    height: 78px;
+    border-radius: 50%;
 }
